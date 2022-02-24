@@ -1,0 +1,27 @@
+.our-logos img{
+    display: inline-block;
+}
+
+.intro-section{
+    padding: 5rem 0 0 0;
+}
+
+@media (max-width: 770px){
+    .our-logos .img{
+        height:50%;
+        display: inline-block;
+    }
+}
+
+@media (max-width: 580px){
+    .our-logos .img{
+        height:30%;
+        display: block;
+    }
+}
+@media (max-width: 580px){
+    .our-logos .img{
+        height:30%;
+        display: block;
+    }
+}

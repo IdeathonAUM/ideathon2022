@@ -23,6 +23,7 @@
   <script src="sendmail.js"></script>
   <script src="timeline.js"></script>
   <link rel="stylesheet" href="timeline.css">
+  <link rel="stylesheet" href="OurLogos.css">
 </head>
 
 <body>
@@ -30,33 +31,43 @@
                                START SECTION 1 - THE NAVBAR SECTION  
 /////////////////////////////////////////////////////////////////////////////////////////////-->
   <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
-    <div class="container">
+    <div class="container", style="margin-right: 50px;">
+      
       <a class="navbar-brand test-logo-class" href="">
         <!-- <img class="ideathon-logo" src="images/bulbbb3.png" alt="logo image"> -->
         <i class="fa-solid fa-lightbulb fa-1x"></i>
         <!-- <i class="fas fa-hamburger fa-2x"></i> -->
         Ideathon
       </a>
+      
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        
         <ul class="navbar-nav">
           <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
           <li class="nav-item"><a class="nav-link active" href="#services">About</a></li>
           <li class="nav-item"><a class="nav-link active" href="#track">Track</a></li>
           <li class="nav-item"><a class="nav-link active" href="#time">Timeline</a></li>
-          <li class="nav-item"><a class="nav-link active" href="#faq">faq</a></li>
-          <li class="nav-item"><a class="nav-link active" href="#team">Team</a>
-          </li>
+          <li class="nav-item"><a class="nav-link active" href="#faq">FAQs</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#team">Team</a></li>
         </ul>
-        <button type="button" class="rounded-pill btn-rounded">
+        <!-- <button type="button" class="rounded-pill btn-rounded">
           Register Now
           <span>
             <i class="fas fa-arrow-right"></i>
           </span>
-        </button>
+        </button> -->
+        <div 
+	        class="apply-button" 
+	        data-hackathon-slug="IDEATHON" 
+        	data-button-theme="light"
+        	style="height: 44px; width: 312px"
+        ></div>
+        <!-- <img src="images\Amity_Official_logo.png" alt="Amity Official logo" style="height: 60px; width:auto; padding-left: 15px;"> -->
+
       </div>
     </div>
   </nav>
@@ -68,6 +79,17 @@
   <section id="home" class="intro-section">
     <div class="container">
       <div class="row align-items-center text-white">
+        <div class="col-md-12 our-logo">
+          <!-- <img src="images\Amity_Official_logo.png" alt="Amity Official logo" style="padding: 0 1rem; margin-bottom: -2rem;"> -->
+          <img class="our-logos" src="images\Techinicia Date.png" alt="Techinicia Logo" style="height: 120px; width:auto; float: left ">
+          <img class="our-logos" src="images\technicia_text.png" alt="Techinicia Text Img" style="height: 60px; width:auto; float: left; transform: translate(5px,40px); ">
+          <img class="our-logos" src="images\Amity_Official_logo.png" alt="Amity Official logo" style="float: right; padding-top: 35px;">
+
+        </div>
+      </div>
+      <div class="row align-items-center text-white">
+        
+        
         <!-- START THE CONTENT FOR THE INTRO  -->
         <div class="col-md-6 intros text-start">
           <h1 class="display-2">
@@ -79,9 +101,10 @@
 
             </span>
           </h1>
-          <button type="button" class="rounded-pill btn-rounded">Register Now
+          <!-- <button type="button" class="rounded-pill btn-rounded">Register Now
             <span><i class="fas fa-arrow-right"></i></span>
-          </button>
+          </button> -->
+          <div class="apply-button" data-hackathon-slug="IDEATHON" data-button-theme="light" style="height: 44px; width: 312px"></div>
         </div>
         <!-- START THE CONTENT FOR THE VIDEO -->
         <div class="col-md-6 intros text-end">
@@ -99,57 +122,10 @@
     </svg>
   </section>
 
-  <!-- //////////////////////////////////////////////////////////////////////////////////////////////
-                             START SECTION 3 - THE CAMPANIES SECTION  
-////////////////////////////////////////////////////////////////////////////////////////////////////-->
-
-  <section id="campanies" class="campanies">
-    <div class="container">
-      <div class="row text-center">
-        <h4 class="fw-bold lead mb-3">Community Partners</h4>
-        <div class="heading-line mb-5"></div>
-      </div>
-    </div>
-    <!-- START THE CAMPANIES CONTENT  -->
-    <div class="container">
-      <div class="row ">
-        <div class="col-md-4 col-lg-2 ">
-          <div class="campanies__logo-box shadow-sm">
-            <a href="https://gdsc.community.dev/amity-university-mumbai/"><img src="images/GDSC official logo.png"
-                alt="Campany 1 logo" title="Campany 1 Logo" class="img-fluid"></a>
-          </div>
-        </div>
-        <!-- <div class="col-md-4 col-lg-2">
-          <div class="campanies__logo-box shadow-sm">
-            <img src="images/campanies/campany-2.png" alt="Campany 2 logo" title="Campany 2 Logo" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="campanies__logo-box shadow-sm">
-            <img src="images/campanies/campany-3.png" alt="Campany 3 logo" title="Campany 3 Logo" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="campanies__logo-box shadow-sm">
-            <img src="images/campanies/campany-4.png" alt="Campany 4 logo" title="Campany 4 Logo" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="campanies__logo-box shadow-sm">
-            <img src="images/campanies/campany-5.png" alt="Campany 5 logo" title="Campany 5 Logo" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="campanies__logo-box shadow-sm">
-            <img src="images/campanies/campany-6.png" alt="Campany 6 logo" title="Campany 6 Logo" class="img-fluid">
-          </div> -->
-      </div>
-    </div>
-    </div>
-  </section>
+ 
 
   <!-- //////////////////////////////////////////////////////////////////////////////////////////////
-                         START SECTION 4 - THE SERVICES  
+                         START SECTION 4 - THE ABOUT IDEATHON 
 ///////////////////////////////////////////////////////////////////////////////////////////////////-->
   <section id="services" class="services">
     <div class="container">
@@ -180,15 +156,15 @@
       </div>
     </div>
 
-    <!-- START THE CONTENT FOR THE SERVICES  -->
+    <!-- TRACKS  -->
     <div class="container idea" id="track">
-      <!-- START THE MARKETING CONTENT  -->
+      <!--   -->
       <div class="row text-center">
         <h1 class="display-3 fw-bold">Tracks</h1>
         <div class="heading-line mb-1"></div>
       </div>
 
-
+        <!-- TRACK  1 -->
 
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
@@ -213,7 +189,7 @@
           </div>
         </div>
       </div>
-      <!-- START THE WEB DEVELOPMENT CONTENT  -->
+      <!-- TRACK  2  -->
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
           <div class="services__pic">
@@ -237,7 +213,7 @@
           </div>
         </div>
       </div>
-      <!-- START THE CLOUD HOSTING CONTENT  -->
+      <!-- TRACK  3  -->
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
           <div class="services__content">
@@ -263,7 +239,7 @@
 
 
   <!-- ////////////////////////////////////////////////////////////////////////////////////////////////
-                               START SECTION 5 - THE TESTIMONIALS  
+                               START SECTION 5 - THE TIMELINE  
 /////////////////////////////////////////////////////////////////////////////////////////////////////-->
   <section id="time" class="testimonials">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -367,35 +343,92 @@
     </svg>
   </section>
   <div>
-    <!-- //////////////////////////////////////////////////////////////////////////////////////////////
-                             START SECTION 3 - THE CAMPANIES SECTION  
+
+     <!-- //////////////////////////////////////////////////////////////////////////////////////////////
+                             START SECTION 3 - THE COMMUNITY PARTNER SECTION  
 ////////////////////////////////////////////////////////////////////////////////////////////////////-->
-    <!-- <section id="campanies" class="campanies">
+
+  <section id="campanies" class="campanies">
+    <div class="container">
+      <div class="row text-center">
+        <h4 class="fw-bold lead mb-3">Community Partners</h4>
+        <div class="heading-line mb-5"></div>
+      </div>
+    </div>
+    <!-- START THE COMMUNITY PARTNERS CONTENT  -->
+    <div class="container">
+      <div class="row" style="align-content: center; align-items: center;">
+        
+        <div class="col-md-4 col-lg-2 ">
+          <div class="campanies__logo-box shadow-sm">
+            <a href="https://gdsc.community.dev/amity-university-mumbai/">
+              <img src="images/GDSC official logo.png" alt="Campany 1 logo" title="Campany 1 Logo" class="img-fluid">
+            </a>
+          </div>
+        </div>
+        <!-- <div class="col-md-4 col-lg-2">
+          <div class="campanies__logo-box shadow-sm">
+            <img src="images/campanies/campany-2.png" alt="Campany 2 logo" title="Campany 2 Logo" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="campanies__logo-box shadow-sm">
+            <img src="images/campanies/campany-3.png" alt="Campany 3 logo" title="Campany 3 Logo" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="campanies__logo-box shadow-sm">
+            <img src="images/campanies/campany-4.png" alt="Campany 4 logo" title="Campany 4 Logo" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="campanies__logo-box shadow-sm">
+            <img src="images/campanies/campany-5.png" alt="Campany 5 logo" title="Campany 5 Logo" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="campanies__logo-box shadow-sm">
+            <img src="images/campanies/campany-6.png" alt="Campany 6 logo" title="Campany 6 Logo" class="img-fluid">
+          </div> -->
+      </div>
+    </div>
+    </div>
+  </section>
+    <!-- //////////////////////////////////////////////////////////////////////////////////////////////
+                             START SECTION 3 - THE SPONSERS SECTION  
+////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <section id="campanies" class="campanies">
       <div class="container">
         <div class="row text-center">
-          <h4 class="fw-bold lead mb-3" style="font-size: 35px;">Sponsors</h4>
+          <h4 class="fw-bold lead mb-3" style="font-size: 35px;">Gold Sponsors</h4>
           <div class="heading-line mb-5"></div>
         </div>
       </div>
    
       <div class="container">
-        <div class="row">
+        <div class="row" style="text-align: center;">
+          <!-- <div class="col-md-4 col-lg-2">
+            <div class="campanies__logo-box shadow-sm">
+              <a href="https://gdsc.community.dev/amity-university-mumbai/">
+                <img src="images/GDSC official logo.png" alt="Campany 1 logo" title="Campany 1 Logo" class="img-fluid">
+              </a>
+            </div>
+          </div> -->
           <div class="col-md-4 col-lg-2">
             <div class="campanies__logo-box shadow-sm">
-              <img src="images/campanies/campany-1.png" alt="Campany 1 logo" title="Campany 1 Logo" class="img-fluid">
+              <a href="https://devfolio.co/">
+                <img src="images\Devfolio_Logo-Colored.svg" alt="Campany 2 logo" title="Campany 2 Logo" class="img-fluid">
+              </a>
             </div>
           </div>
           <div class="col-md-4 col-lg-2">
             <div class="campanies__logo-box shadow-sm">
-              <img src="images/campanies/campany-2.png" alt="Campany 2 logo" title="Campany 2 Logo" class="img-fluid">
+              <a href="https://polygon.technology/">
+                <img src="images\Polygon_Logo-Colored.svg" alt="Campany 3 logo" title="Campany 3 Logo" class="img-fluid">
+              </a>
             </div>
           </div>
-          <div class="col-md-4 col-lg-2">
-            <div class="campanies__logo-box shadow-sm">
-              <img src="images/campanies/campany-3.png" alt="Campany 3 logo" title="Campany 3 Logo" class="img-fluid">
-            </div>
-          </div>
-          <div class="col-md-4 col-lg-2">
+          <!-- <div class="col-md-4 col-lg-2">
             <div class="campanies__logo-box shadow-sm">
               <img src="images/campanies/campany-4.png" alt="Campany 4 logo" title="Campany 4 Logo" class="img-fluid">
             </div>
@@ -408,12 +441,66 @@
           <div class="col-md-4 col-lg-2">
             <div class="campanies__logo-box shadow-sm">
               <img src="images/campanies/campany-6.png" alt="Campany 6 logo" title="Campany 6 Logo" class="img-fluid">
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
     <!-- testimonials -->
+
+    <!-- //////////////////////////////////////////////////////////////////////////////////////////////
+                             START SECTION 3 - THE SPONSERS SECTION  
+////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<section id="campanies" class="campanies">
+  <div class="container">
+    <div class="row text-center">
+      <h4 class="fw-bold lead mb-3" style="font-size: 35px;">Silver Sponsors</h4>
+      <div class="heading-line mb-5"></div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-lg-2">
+        <div class="campanies__logo-box shadow-sm">
+          <a href="https://celo.org/">
+            <img src="images\Celo Logo Color.svg" alt="Campany 1 logo" title="Campany 1 Logo" class="img-fluid">
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-2">
+        <div class="campanies__logo-box shadow-sm">
+          <a href="https://tezos.com/">
+            <img src="images\Tezos_Logo-Colored.svg" alt="Campany 2 logo" title="Campany 2 Logo" class="img-fluid">
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-2">
+        <div class="campanies__logo-box shadow-sm">
+          <a href="https://filecoin.io/">
+            <img src="images\Filecoin Coloured White Text.svg" alt="Campany 3 logo" title="Campany 3 Logo" class="img-fluid">
+          </a>
+        </div>
+      </div>
+      <!-- <div class="col-md-4 col-lg-2">
+        <div class="campanies__logo-box shadow-sm">
+          <img src="images/campanies/campany-4.png" alt="Campany 4 logo" title="Campany 4 Logo" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-2">
+        <div class="campanies__logo-box shadow-sm">
+          <img src="images/campanies/campany-5.png" alt="Campany 5 logo" title="Campany 5 Logo" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-2">
+        <div class="campanies__logo-box shadow-sm">
+          <img src="images/campanies/campany-6.png" alt="Campany 6 logo" title="Campany 6 Logo" class="img-fluid">
+        </div>
+      </div> -->
+    </div>
+  </div>
+</section>
+<!-- testimonials -->
 
 
     <!-- /////////////////////////////////////////////////////////////////////////////////////////////////
@@ -529,7 +616,7 @@
     <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////
                               START SECTION 7 - THE PORTFOLIO  
 //////////////////////////////////////////////////////////////////////////////////////////////////////-->
-
+<!-- 
     <section id="team" class="portfolio">
       <div class="container">
         <div class="row text-center mt-5">
@@ -537,7 +624,7 @@
           <div class="heading-line"></div>
 
         </div>
-        <!-- START THE PORTFOLIO ITEMS  -->
+        
         <div class="row">
           <div class="col-lg-4 col-md-6">
             <div class="portfolio-box shadow">
@@ -607,7 +694,7 @@
 
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////
               START SECTION 8 - GET STARTED  
@@ -777,6 +864,7 @@
     <script>
 
     </script>
+    <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
 </body>
 
 </html>
