@@ -5,6 +5,12 @@
 .intro-section{
     padding: 5rem 0 0 0;
 }
+/* 
+.technitia-logo{
+    height: 120px; 
+    width:auto; 
+    float: left; 
+} */
 
 @media (max-width: 770px){
     .our-logos .img{
@@ -25,3 +31,4 @@
         display: block;
     }
 }
+
